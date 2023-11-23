@@ -1,0 +1,221 @@
+:root{
+    --colores1:#c59f82;
+    --colores2:#4d301d;
+    --colores3:#896950;
+    --colores4:#e8d1bc;
+    --colores5:#c39a94;
+    --colores6:#672917;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    position: relative;
+}
+
+body::-webkit-scrollbar{
+    width: 10px;
+    background-color: var(--colores1);
+}
+
+body::-webkit-scrollbar-thumb{
+    border-radius: 20px;
+    background-color: var(--colores6);
+}
+
+video{
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    z-index: -2;
+}
+
+.cotenedor{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-image:url(../img/FONDO\ 3.jpeg);
+    display: flex;
+    position: fixed;
+    z-index: 100;
+}
+.opcion{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    width: 30%;
+    height: 100%;
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+    top:20%;
+    left: 20%;
+    border-radius: 50%;
+    box-shadow:0px 12px 12px ;
+}
+
+.opcion ul {
+    width: 100%;
+    height: 100%;
+    display:flex;
+    align-items: center;
+}
+
+.opcion ul li{
+    list-style: none;
+    width: 80px;
+    height: 40px;
+    margin-left: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.opcion ul li a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--colores4);
+    transition: 0.5s ;
+}
+
+.opcion ul li a:hover{
+    text-decoration: underline double;
+    text-shadow: 12px 12px 10px rgb(15, 15, 15);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: var(--colores4);
+}
+
+.opcion ul li .home{
+    text-decoration: overline;
+}
+
+.box{
+    width: 90%;
+    height: auto;
+    padding: 30px;
+    background-image:url(../img/FONDO\ 2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 100PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Pacifico' , cursive;
+    color: white;
+}
+
+form{
+    width: 80%;
+    height: auto;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+form #name{
+    width: 400px;
+    height: 50px;
+    outline: none;
+    padding-left: 20px;
+    border-radius: 40px;
+    border: none;
+}
+
+form #correo{
+    width: 400px;
+    height: 50px;
+    outline: none;
+    padding-left: 20px;
+    border-radius: 40px;
+    border: none;
+}
+
+form #celular{
+    width: 400px;
+    height: 50px;
+    outline: none;
+    padding-left: 20px;
+    border-radius: 40px;
+    border: none;
+}
+
+form #text{
+    width: 600px;
+    height:400px;
+    outline: none;
+    padding: 20px;
+    border-radius: 40px;
+    border: none;
+    resize: none;
+}
+
+#but{
+    margin: 12px;
+    width: 90px;
+    height: 40px;
+    border-radius: 40px;
+}
+
+
+label{
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serifs;
+    margin: 12px;
+}
+
+form textarea,
+form input{
+    box-shadow: 0px 10px 30px ;
+}
+
+
+
+footer{
+    background-color: black;
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    color: white;
+    font-size: 20px;
+}
+
+
+footer a{
+    text-decoration: none;
+    color: white;
+}

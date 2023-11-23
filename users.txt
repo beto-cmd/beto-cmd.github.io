@@ -1,0 +1,30 @@
+cliente : Patricia Pizarroso
+
+by BETO
+
+derechos reservados : BETO
+
+#################################################################################################################################
+
+face alfa.- el presente sitio web esta en desarrollo aun, lo cual aun puede estar sometido a errores de codigo ,interfas entre otros; el sitio web no responcive lo que quiere decir que no se podra adaptar a otros dispositivos como ser (note books y dispositivos moviles) se piensa hacer esto para la *fase beta* del proyecto.  
+
+#################################################################################################################################
+ 
+
+El si tio web llamado "Le Petit Cafe" esta en fase de desarrollo lo cual se mandara una vista previa para los operadores(Cristina Pizarroso) esto con una remuneracion inicial del 50% del pago total(####) el proyecto esta cargo de "diseño & desarrollo BETO" 
+
+################################################################################################################################
+
+modo de uso del sitio web
+
+el sitio web cuenta con 3 paginas (index,carta,contactos y redes_sociales posteriores)todos con sus recpectivos css y js 
+
+para la prueba debe abrirse la carpeta cafe lo cual contara con 5 carpetas en el cual llevara archivos importante para los archivos html y 3 archivos html
+
+abre el archivo index.html(el nombre es debido a que el navegador al que se suba el sitio web buscara el archivo index como archivo principal) una vex reaalizado pon a prueba los botones y interfaz que la pagina ofrece 
+
+nota: no borrar ningun archivo o carpeta ya que esto ocasionaria fallas en el sitio web
+
+#################################################################################################################################
+
+diseño y desarrollo "BETO" te desea un excelente dia 
